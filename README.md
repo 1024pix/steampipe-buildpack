@@ -11,12 +11,6 @@ Use with [Scalingo][]: `scalingo env-set BUILDPACK_URL=https://github.com/franco
 
 ## Procfile
 
-**With dashboard**:
-
-```
-web: ./bin/steampipe dashboard --dashboard-port $PORT --dashboard-listen network
-```
-
 **Raw access to the postgres**
 
 Add the [tcp addon](https://doc.scalingo.com/addons/tcp-gateway/start).
